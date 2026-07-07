@@ -1,0 +1,63 @@
+# Environment variables (API keys, secrets)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# uv package manager
+.uv/
+uv.lock
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# AI / ML generated files
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Temporary files
+tmp/
+temp/
+.cache/
