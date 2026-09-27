@@ -143,7 +143,7 @@ class Resume(BaseModel):
     certifications : list[str] = []
     socials : list[str] = []
 
-resume_schema = Resume.model_json_schema()
+
 
 def final_score(job,resume):
     match_schema = MatchResult.model_json_schema()
